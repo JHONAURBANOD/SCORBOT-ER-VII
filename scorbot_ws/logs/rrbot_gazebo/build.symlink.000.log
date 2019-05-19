@@ -1,0 +1,3 @@
+Symlinking /home/salaceri/robotica_ws/devel/lib/pkgconfig/rrbot_gazebo.pc
+Symlinking /home/salaceri/robotica_ws/devel/share/rrbot_gazebo/cmake/rrbot_gazeboConfig-version.cmake
+Symlinking /home/salaceri/robotica_ws/devel/share/rrbot_gazebo/cmake/rrbot_gazeboConfig.cmake

@@ -1,0 +1,2790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2017-06-13T23:25:02Z</created><keywords></keywords><modified>2017-06-13T23:25:02Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Z_UP</up_axis></asset>
+  <library_geometries>
+    <geometry id="-lib" name="Mesh">
+      <mesh>
+        <source id="-POSITION">
+          <float_array id="-POSITION-array" count="114">
+-0.016181 0.004500 0.046396
+-0.016004 0.004500 0.046883
+-0.016093 0.004500 0.047392
+-0.016426 0.004500 0.047789
+-0.016912 0.004500 0.047967
+-0.017422 0.004500 0.047878
+-0.017819 0.004500 0.047545
+-0.017996 0.004500 0.047059
+-0.017907 0.004500 0.046549
+-0.017574 0.004500 0.046152
+-0.017088 0.004500 0.045975
+-0.016578 0.004500 0.046064
+-0.043181 0.004500 0.007926
+-0.043004 0.004500 0.008412
+-0.043093 0.004500 0.008922
+-0.043426 0.004500 0.009319
+-0.043912 0.004500 0.009496
+-0.044422 0.004500 0.009407
+-0.044819 0.004500 0.009074
+-0.044996 0.004500 0.008588
+-0.044907 0.004500 0.008078
+-0.044574 0.004500 0.007681
+-0.044088 0.004500 0.007504
+-0.043578 0.004500 0.007593
+-0.039333 0.004500 0.006446
+-0.041317 0.004500 0.004785
+-0.043867 0.004500 0.004338
+-0.046298 0.004500 0.005226
+-0.047959 0.004500 0.007210
+-0.048406 0.004500 0.009760
+-0.047518 0.004500 0.012191
+-0.021667 0.004500 0.049025
+-0.019683 0.004500 0.050686
+-0.017133 0.004500 0.051133
+-0.014702 0.004500 0.050245
+-0.013041 0.004500 0.048260
+-0.012594 0.004500 0.045711
+-0.013482 0.004500 0.043280
+</float_array>
+          <technique_common>
+            <accessor source="#-POSITION-array" count="38" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="-Normal0">
+          <float_array id="-Normal0-array" count="114">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#-Normal0-array" count="38" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="-VERTEX">
+          <input semantic="POSITION" source="#-POSITION"/>
+          <input semantic="NORMAL" source="#-Normal0"/>
+        </vertices>
+        <triangles count="40"><input semantic="VERTEX" offset="0" source="#-VERTEX"/><p> 6 7 31 19 20 27 27 20 21 31 32 6 6 32 33 6 33 5 5 33 34 5 34 4 0 1 35 35 1 34 18 19 28 28 19 27 1 2 34 34 2 3 34 3 4 28 29 18 18 29 30 18 30 17 21 22 27 27 22 23 27 23 26 26 23 12 26 12 25 25 12 24 30 31 17 17 31 7 17 7 16 16 7 8 16 8 15 15 8 9 15 9 14 14 9 10 14 10 13 13 10 11 35 36 0 0 36 37 0 37 11 11 37 24 11 24 13 13 24 12</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_1-lib" name="_ncl1_1Mesh">
+      <mesh>
+        <source id="_ncl1_1-POSITION">
+          <float_array id="_ncl1_1-POSITION-array" count="42">
+-0.047518 0.004500 0.012191
+-0.048406 0.004500 0.009760
+-0.047959 0.004500 0.007210
+-0.046298 0.004500 0.005226
+-0.043867 0.004500 0.004338
+-0.041317 0.004500 0.004785
+-0.039333 0.004500 0.006446
+-0.039333 -0.004500 0.006446
+-0.041317 -0.004500 0.004785
+-0.043867 -0.004500 0.004338
+-0.046298 -0.004500 0.005226
+-0.047959 -0.004500 0.007210
+-0.048406 -0.004500 0.009760
+-0.047518 -0.004500 0.012191
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_1-POSITION-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_1-Normal0">
+          <float_array id="_ncl1_1-Normal0-array" count="42">
+-0.818527 0.000000 0.574468
+-0.996099 0.000000 0.088240
+-0.906767 0.000000 -0.421631
+-0.574468 0.000000 -0.818527
+-0.088240 0.000000 -0.996099
+0.421631 -0.000000 -0.906767
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.421631 -0.000000 -0.906767
+-0.088240 0.000000 -0.996099
+-0.574468 0.000000 -0.818527
+-0.906767 0.000000 -0.421631
+-0.996099 0.000000 0.088240
+-0.818527 0.000000 0.574468
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_1-Normal0-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_1-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_1-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_1-Normal0"/>
+        </vertices>
+        <triangles count="12"><input semantic="VERTEX" offset="0" source="#_ncl1_1-VERTEX"/><p> 6 7 8 6 8 5 5 8 9 5 9 4 4 9 10 4 10 3 3 10 11 3 11 2 2 11 12 2 12 1 1 12 13 1 13 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_2-lib" name="_ncl1_2Mesh">
+      <mesh>
+        <source id="_ncl1_2-POSITION">
+          <float_array id="_ncl1_2-POSITION-array" count="12">
+-0.039333 -0.004500 0.006446
+-0.039333 0.004500 0.006446
+-0.013482 0.004500 0.043280
+-0.013482 -0.004500 0.043280
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_2-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_2-Normal0">
+          <float_array id="_ncl1_2-Normal0-array" count="12">
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_2-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_2-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_2-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_2-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_2-VERTEX"/><p> 1 2 0 0 2 3</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_3-lib" name="_ncl1_3Mesh">
+      <mesh>
+        <source id="_ncl1_3-POSITION">
+          <float_array id="_ncl1_3-POSITION-array" count="42">
+-0.021667 -0.004500 0.049025
+-0.019683 -0.004500 0.050686
+-0.017133 -0.004500 0.051133
+-0.014702 -0.004500 0.050245
+-0.013041 -0.004500 0.048260
+-0.012594 -0.004500 0.045711
+-0.013482 -0.004500 0.043280
+-0.013482 0.004500 0.043280
+-0.012594 0.004500 0.045711
+-0.013041 0.004500 0.048260
+-0.014702 0.004500 0.050245
+-0.017133 0.004500 0.051133
+-0.019683 0.004500 0.050686
+-0.021667 0.004500 0.049025
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_3-POSITION-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_3-Normal0">
+          <float_array id="_ncl1_3-Normal0-array" count="42">
+-0.818527 0.000000 0.574468
+-0.421631 0.000000 0.906767
+0.088240 -0.000000 0.996099
+0.574468 -0.000000 0.818527
+0.906767 -0.000000 0.421631
+0.996099 -0.000000 -0.088240
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.996099 -0.000000 -0.088240
+0.906767 -0.000000 0.421631
+0.574468 -0.000000 0.818527
+0.088240 -0.000000 0.996099
+-0.421631 0.000000 0.906767
+-0.818527 0.000000 0.574468
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_3-Normal0-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_3-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_3-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_3-Normal0"/>
+        </vertices>
+        <triangles count="12"><input semantic="VERTEX" offset="0" source="#_ncl1_3-VERTEX"/><p> 6 7 8 6 8 5 5 8 9 5 9 4 4 9 10 4 10 3 3 10 11 3 11 2 2 11 12 2 12 1 1 12 13 1 13 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_4-lib" name="_ncl1_4Mesh">
+      <mesh>
+        <source id="_ncl1_4-POSITION">
+          <float_array id="_ncl1_4-POSITION-array" count="12">
+-0.047518 0.004500 0.012191
+-0.047518 -0.004500 0.012191
+-0.021667 -0.004500 0.049025
+-0.021667 0.004500 0.049025
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_4-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_4-Normal0">
+          <float_array id="_ncl1_4-Normal0-array" count="12">
+-0.818527 0.000000 0.574468
+-0.818527 0.000000 0.574468
+-0.818527 0.000000 0.574468
+-0.818527 0.000000 0.574468
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_4-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_4-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_4-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_4-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_4-VERTEX"/><p> 1 2 0 0 2 3</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_5-lib" name="_ncl1_5Mesh">
+      <mesh>
+        <source id="_ncl1_5-POSITION">
+          <float_array id="_ncl1_5-POSITION-array" count="72">
+-0.016181 0.004500 0.046396
+-0.016578 0.004500 0.046064
+-0.017088 0.004500 0.045975
+-0.017574 0.004500 0.046152
+-0.017907 0.004500 0.046549
+-0.017996 0.004500 0.047059
+-0.017819 0.004500 0.047545
+-0.017422 0.004500 0.047878
+-0.016912 0.004500 0.047967
+-0.016426 0.004500 0.047789
+-0.016093 0.004500 0.047392
+-0.016004 0.004500 0.046883
+-0.016181 -0.004500 0.046396
+-0.016004 -0.004500 0.046883
+-0.016093 -0.004500 0.047392
+-0.016426 -0.004500 0.047789
+-0.016912 -0.004500 0.047967
+-0.017422 -0.004500 0.047878
+-0.017819 -0.004500 0.047545
+-0.017996 -0.004500 0.047059
+-0.017907 -0.004500 0.046549
+-0.017574 -0.004500 0.046152
+-0.017088 -0.004500 0.045975
+-0.016578 -0.004500 0.046064
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_5-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_5-Normal0">
+          <float_array id="_ncl1_5-Normal0-array" count="72">
+-0.818527 0.000000 0.574468
+-0.421631 0.000000 0.906767
+0.088240 -0.000000 0.996099
+0.574468 -0.000000 0.818527
+0.906767 -0.000000 0.421631
+0.996099 -0.000000 -0.088240
+0.818527 -0.000000 -0.574468
+0.421631 -0.000000 -0.906767
+-0.088240 0.000000 -0.996099
+-0.574468 0.000000 -0.818527
+-0.906767 0.000000 -0.421631
+-0.996099 0.000000 0.088240
+-0.818527 0.000000 0.574468
+-0.996099 0.000000 0.088240
+-0.906767 0.000000 -0.421631
+-0.574468 0.000000 -0.818527
+-0.088240 0.000000 -0.996099
+0.421631 -0.000000 -0.906767
+0.818527 -0.000000 -0.574468
+0.996099 -0.000000 -0.088240
+0.906767 -0.000000 0.421631
+0.574468 -0.000000 0.818527
+0.088240 -0.000000 0.996099
+-0.421631 0.000000 0.906767
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_5-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_5-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_5-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_5-Normal0"/>
+        </vertices>
+        <triangles count="24"><input semantic="VERTEX" offset="0" source="#_ncl1_5-VERTEX"/><p> 10 14 9 9 14 15 9 15 8 8 15 16 8 16 7 7 16 17 7 17 6 6 17 18 6 18 5 5 18 19 5 19 4 4 19 20 4 20 3 3 20 21 3 21 2 2 21 22 2 22 1 1 22 23 1 23 0 0 23 12 0 12 11 11 12 13 11 13 10 10 13 14</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_6-lib" name="_ncl1_6Mesh">
+      <mesh>
+        <source id="_ncl1_6-POSITION">
+          <float_array id="_ncl1_6-POSITION-array" count="72">
+-0.043181 0.004500 0.007926
+-0.043578 0.004500 0.007593
+-0.044088 0.004500 0.007504
+-0.044574 0.004500 0.007681
+-0.044907 0.004500 0.008078
+-0.044996 0.004500 0.008588
+-0.044819 0.004500 0.009074
+-0.044422 0.004500 0.009407
+-0.043912 0.004500 0.009496
+-0.043426 0.004500 0.009319
+-0.043093 0.004500 0.008922
+-0.043004 0.004500 0.008412
+-0.043181 -0.004500 0.007926
+-0.043004 -0.004500 0.008412
+-0.043093 -0.004500 0.008922
+-0.043426 -0.004500 0.009319
+-0.043912 -0.004500 0.009496
+-0.044422 -0.004500 0.009407
+-0.044819 -0.004500 0.009074
+-0.044996 -0.004500 0.008588
+-0.044907 -0.004500 0.008078
+-0.044574 -0.004500 0.007681
+-0.044088 -0.004500 0.007504
+-0.043578 -0.004500 0.007593
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_6-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_6-Normal0">
+          <float_array id="_ncl1_6-Normal0-array" count="72">
+-0.818527 0.000000 0.574468
+-0.421631 0.000000 0.906767
+0.088240 -0.000000 0.996099
+0.574468 -0.000000 0.818527
+0.906767 -0.000000 0.421631
+0.996099 -0.000000 -0.088240
+0.818527 -0.000000 -0.574468
+0.421631 -0.000000 -0.906767
+-0.088240 0.000000 -0.996099
+-0.574468 0.000000 -0.818527
+-0.906767 0.000000 -0.421631
+-0.996099 0.000000 0.088240
+-0.818527 0.000000 0.574468
+-0.996099 0.000000 0.088240
+-0.906767 0.000000 -0.421631
+-0.574468 0.000000 -0.818527
+-0.088240 0.000000 -0.996099
+0.421631 -0.000000 -0.906767
+0.818527 -0.000000 -0.574468
+0.996099 -0.000000 -0.088240
+0.906767 -0.000000 0.421631
+0.574468 -0.000000 0.818527
+0.088240 -0.000000 0.996099
+-0.421631 0.000000 0.906767
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_6-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_6-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_6-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_6-Normal0"/>
+        </vertices>
+        <triangles count="24"><input semantic="VERTEX" offset="0" source="#_ncl1_6-VERTEX"/><p> 10 14 9 9 14 15 9 15 8 8 15 16 8 16 7 7 16 17 7 17 6 6 17 18 6 18 5 5 18 19 5 19 4 4 19 20 4 20 3 3 20 21 3 21 2 2 21 22 2 22 1 1 22 23 1 23 0 0 23 12 0 12 11 11 12 13 11 13 10 10 13 14</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_7-lib" name="_ncl1_7Mesh">
+      <mesh>
+        <source id="_ncl1_7-POSITION">
+          <float_array id="_ncl1_7-POSITION-array" count="114">
+-0.047518 -0.004500 0.012191
+-0.048406 -0.004500 0.009760
+-0.047959 -0.004500 0.007210
+-0.046298 -0.004500 0.005226
+-0.043867 -0.004500 0.004338
+-0.041317 -0.004500 0.004785
+-0.039333 -0.004500 0.006446
+-0.013482 -0.004500 0.043280
+-0.012594 -0.004500 0.045711
+-0.013041 -0.004500 0.048260
+-0.014702 -0.004500 0.050245
+-0.017133 -0.004500 0.051133
+-0.019683 -0.004500 0.050686
+-0.021667 -0.004500 0.049025
+-0.016181 -0.004500 0.046396
+-0.016578 -0.004500 0.046064
+-0.017088 -0.004500 0.045975
+-0.017574 -0.004500 0.046152
+-0.017907 -0.004500 0.046549
+-0.017996 -0.004500 0.047059
+-0.017819 -0.004500 0.047545
+-0.017422 -0.004500 0.047878
+-0.016912 -0.004500 0.047967
+-0.016426 -0.004500 0.047789
+-0.016093 -0.004500 0.047392
+-0.016004 -0.004500 0.046883
+-0.043181 -0.004500 0.007926
+-0.043578 -0.004500 0.007593
+-0.044088 -0.004500 0.007504
+-0.044574 -0.004500 0.007681
+-0.044907 -0.004500 0.008078
+-0.044996 -0.004500 0.008588
+-0.044819 -0.004500 0.009074
+-0.044422 -0.004500 0.009407
+-0.043912 -0.004500 0.009496
+-0.043426 -0.004500 0.009319
+-0.043093 -0.004500 0.008922
+-0.043004 -0.004500 0.008412
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_7-POSITION-array" count="38" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_7-Normal0">
+          <float_array id="_ncl1_7-Normal0-array" count="114">
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_7-Normal0-array" count="38" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_7-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_7-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_7-Normal0"/>
+        </vertices>
+        <triangles count="40"><input semantic="VERTEX" offset="0" source="#_ncl1_7-VERTEX"/><p> 32 33 0 28 29 3 7 14 15 37 26 6 29 30 3 3 30 31 3 31 2 2 31 32 2 32 1 1 32 0 28 3 27 27 3 4 27 4 26 26 4 5 26 5 6 19 20 13 13 20 12 6 7 37 37 7 15 37 15 36 36 15 16 36 16 35 35 16 17 35 17 34 34 17 18 34 18 33 33 18 19 33 19 0 0 19 13 23 24 10 10 24 25 10 25 9 9 25 14 9 14 8 8 14 7 12 20 11 11 20 21 11 21 10 10 21 22 10 22 23</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_8-lib" name="_ncl1_8Mesh">
+      <mesh>
+        <source id="_ncl1_8-POSITION">
+          <float_array id="_ncl1_8-POSITION-array" count="48">
+-0.021952 0.002750 0.002244
+-0.021555 0.002750 0.002576
+-0.021045 0.002750 0.002665
+-0.020559 0.002750 0.002488
+-0.020227 0.002750 0.002091
+-0.020137 0.002750 0.001581
+-0.020315 0.002750 0.001095
+-0.020712 0.002750 0.000762
+-0.021222 0.002750 0.000673
+-0.021708 0.002750 0.000851
+-0.022040 0.002750 0.001248
+-0.022130 0.002750 0.001757
+-0.029205 0.002750 0.002354
+-0.021019 0.002750 -0.003392
+-0.016424 0.002750 0.003157
+-0.024609 0.002750 0.008902
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_8-POSITION-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_8-Normal0">
+          <float_array id="_ncl1_8-Normal0-array" count="48">
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_8-Normal0-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_8-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_8-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_8-Normal0"/>
+        </vertices>
+        <triangles count="16"><input semantic="VERTEX" offset="0" source="#_ncl1_8-VERTEX"/><p> 14 15 2 4 14 3 3 14 2 12 0 15 15 0 1 15 1 2 8 9 13 13 9 10 13 10 12 12 10 11 12 11 0 4 5 14 14 5 6 14 6 13 13 6 7 13 7 8</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_9-lib" name="_ncl1_9Mesh">
+      <mesh>
+        <source id="_ncl1_9-POSITION">
+          <float_array id="_ncl1_9-POSITION-array" count="48">
+-0.021952 -0.002750 0.002244
+-0.022130 -0.002750 0.001757
+-0.022040 -0.002750 0.001248
+-0.021708 -0.002750 0.000851
+-0.021222 -0.002750 0.000673
+-0.020712 -0.002750 0.000762
+-0.020315 -0.002750 0.001095
+-0.020137 -0.002750 0.001581
+-0.020227 -0.002750 0.002091
+-0.020559 -0.002750 0.002488
+-0.021045 -0.002750 0.002665
+-0.021555 -0.002750 0.002576
+-0.021019 -0.002750 -0.003392
+-0.029205 -0.002750 0.002354
+-0.024609 -0.002750 0.008902
+-0.016424 -0.002750 0.003157
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_9-POSITION-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_9-Normal0">
+          <float_array id="_ncl1_9-Normal0-array" count="48">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_9-Normal0-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_9-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_9-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_9-Normal0"/>
+        </vertices>
+        <triangles count="16"><input semantic="VERTEX" offset="0" source="#_ncl1_9-VERTEX"/><p> 13 14 0 8 9 15 15 9 10 15 10 14 14 10 11 14 11 0 0 1 13 13 1 2 13 2 12 12 2 3 12 3 4 4 5 12 12 5 6 12 6 15 15 6 7 15 7 8</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_10-lib" name="_ncl1_10Mesh">
+      <mesh>
+        <source id="_ncl1_10-POSITION">
+          <float_array id="_ncl1_10-POSITION-array" count="12">
+-0.016424 -0.002750 0.003157
+-0.024609 -0.002750 0.008902
+-0.024609 -0.004500 0.008902
+-0.016424 -0.004500 0.003157
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_10-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_10-Normal0">
+          <float_array id="_ncl1_10-Normal0-array" count="12">
+0.574468 -0.000000 0.818527
+0.574468 -0.000000 0.818527
+0.574468 -0.000000 0.818527
+0.574468 -0.000000 0.818527
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_10-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_10-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_10-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_10-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_10-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_11-lib" name="_ncl1_11Mesh">
+      <mesh>
+        <source id="_ncl1_11-POSITION">
+          <float_array id="_ncl1_11-POSITION-array" count="12">
+-0.024609 0.002750 0.008902
+-0.016424 0.002750 0.003157
+-0.016424 0.004500 0.003157
+-0.024609 0.004500 0.008902
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_11-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_11-Normal0">
+          <float_array id="_ncl1_11-Normal0-array" count="12">
+0.574468 -0.000000 0.818527
+0.574468 -0.000000 0.818527
+0.574468 -0.000000 0.818527
+0.574468 -0.000000 0.818527
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_11-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_11-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_11-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_11-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_11-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_12-lib" name="_ncl1_12Mesh">
+      <mesh>
+        <source id="_ncl1_12-POSITION">
+          <float_array id="_ncl1_12-POSITION-array" count="12">
+-0.021019 -0.002750 -0.003392
+-0.016424 -0.002750 0.003157
+-0.016424 -0.004500 0.003157
+-0.021019 -0.004500 -0.003392
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_12-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_12-Normal0">
+          <float_array id="_ncl1_12-Normal0-array" count="12">
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_12-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_12-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_12-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_12-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_12-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_13-lib" name="_ncl1_13Mesh">
+      <mesh>
+        <source id="_ncl1_13-POSITION">
+          <float_array id="_ncl1_13-POSITION-array" count="12">
+-0.016424 0.002750 0.003157
+-0.021019 0.002750 -0.003392
+-0.021019 0.004500 -0.003392
+-0.016424 0.004500 0.003157
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_13-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_13-Normal0">
+          <float_array id="_ncl1_13-Normal0-array" count="12">
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_13-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_13-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_13-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_13-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_13-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_14-lib" name="_ncl1_14Mesh">
+      <mesh>
+        <source id="_ncl1_14-POSITION">
+          <float_array id="_ncl1_14-POSITION-array" count="24">
+-0.021019 0.002750 -0.003392
+-0.029205 0.002750 0.002354
+-0.029205 -0.002750 0.002354
+-0.021019 -0.002750 -0.003392
+-0.021019 -0.004500 -0.003392
+-0.037391 -0.004500 0.008098
+-0.037391 0.004500 0.008098
+-0.021019 0.004500 -0.003392
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_14-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_14-Normal0">
+          <float_array id="_ncl1_14-Normal0-array" count="24">
+-0.574468 0.000000 -0.818527
+-0.574468 0.000000 -0.818527
+-0.574468 0.000000 -0.818527
+-0.574468 0.000000 -0.818527
+-0.574468 0.000000 -0.818527
+-0.574468 0.000000 -0.818527
+-0.574468 0.000000 -0.818527
+-0.574468 0.000000 -0.818527
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_14-Normal0-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_14-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_14-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_14-Normal0"/>
+        </vertices>
+        <triangles count="6"><input semantic="VERTEX" offset="0" source="#_ncl1_14-VERTEX"/><p> 1 7 0 3 4 2 2 4 5 2 5 1 1 5 6 1 6 7</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_15-lib" name="_ncl1_15Mesh">
+      <mesh>
+        <source id="_ncl1_15-POSITION">
+          <float_array id="_ncl1_15-POSITION-array" count="72">
+-0.021952 -0.004500 0.002244
+-0.022130 -0.004500 0.001757
+-0.022040 -0.004500 0.001248
+-0.021708 -0.004500 0.000851
+-0.021222 -0.004500 0.000673
+-0.020712 -0.004500 0.000762
+-0.020315 -0.004500 0.001095
+-0.020137 -0.004500 0.001581
+-0.020227 -0.004500 0.002091
+-0.020559 -0.004500 0.002488
+-0.021045 -0.004500 0.002665
+-0.021555 -0.004500 0.002576
+-0.021952 -0.002750 0.002244
+-0.021555 -0.002750 0.002576
+-0.021045 -0.002750 0.002665
+-0.020559 -0.002750 0.002488
+-0.020227 -0.002750 0.002091
+-0.020137 -0.002750 0.001581
+-0.020315 -0.002750 0.001095
+-0.020712 -0.002750 0.000762
+-0.021222 -0.002750 0.000673
+-0.021708 -0.002750 0.000851
+-0.022040 -0.002750 0.001248
+-0.022130 -0.002750 0.001757
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_15-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_15-Normal0">
+          <float_array id="_ncl1_15-Normal0-array" count="72">
+0.818527 -0.000000 -0.574468
+0.996099 -0.000000 -0.088240
+0.906767 -0.000000 0.421631
+0.574468 -0.000000 0.818527
+0.088240 -0.000000 0.996099
+-0.421631 0.000000 0.906767
+-0.818527 0.000000 0.574468
+-0.996099 0.000000 0.088240
+-0.906767 0.000000 -0.421631
+-0.574468 0.000000 -0.818527
+-0.088240 0.000000 -0.996099
+0.421631 -0.000000 -0.906767
+0.818527 -0.000000 -0.574468
+0.421631 -0.000000 -0.906767
+-0.088240 0.000000 -0.996099
+-0.574468 0.000000 -0.818527
+-0.906767 0.000000 -0.421631
+-0.996099 0.000000 0.088240
+-0.818527 0.000000 0.574468
+-0.421631 0.000000 0.906767
+0.088240 -0.000000 0.996099
+0.574468 -0.000000 0.818527
+0.906767 -0.000000 0.421631
+0.996099 -0.000000 -0.088240
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_15-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_15-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_15-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_15-Normal0"/>
+        </vertices>
+        <triangles count="24"><input semantic="VERTEX" offset="0" source="#_ncl1_15-VERTEX"/><p> 10 14 9 9 14 15 9 15 8 8 15 16 8 16 7 7 16 17 7 17 6 6 17 18 6 18 5 5 18 19 5 19 4 4 19 20 4 20 3 3 20 21 3 21 2 2 21 22 2 22 1 1 22 23 1 23 0 0 23 12 0 12 11 11 12 13 11 13 10 10 13 14</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_16-lib" name="_ncl1_16Mesh">
+      <mesh>
+        <source id="_ncl1_16-POSITION">
+          <float_array id="_ncl1_16-POSITION-array" count="72">
+-0.021952 0.002750 0.002244
+-0.022130 0.002750 0.001757
+-0.022040 0.002750 0.001248
+-0.021708 0.002750 0.000851
+-0.021222 0.002750 0.000673
+-0.020712 0.002750 0.000762
+-0.020315 0.002750 0.001095
+-0.020137 0.002750 0.001581
+-0.020227 0.002750 0.002091
+-0.020559 0.002750 0.002488
+-0.021045 0.002750 0.002665
+-0.021555 0.002750 0.002576
+-0.021952 0.004500 0.002244
+-0.021555 0.004500 0.002576
+-0.021045 0.004500 0.002665
+-0.020559 0.004500 0.002488
+-0.020227 0.004500 0.002091
+-0.020137 0.004500 0.001581
+-0.020315 0.004500 0.001095
+-0.020712 0.004500 0.000762
+-0.021222 0.004500 0.000673
+-0.021708 0.004500 0.000851
+-0.022040 0.004500 0.001248
+-0.022130 0.004500 0.001757
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_16-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_16-Normal0">
+          <float_array id="_ncl1_16-Normal0-array" count="72">
+0.818527 -0.000000 -0.574468
+0.996099 -0.000000 -0.088240
+0.906767 -0.000000 0.421631
+0.574468 -0.000000 0.818527
+0.088240 -0.000000 0.996099
+-0.421631 0.000000 0.906767
+-0.818527 0.000000 0.574468
+-0.996099 0.000000 0.088240
+-0.906767 0.000000 -0.421631
+-0.574468 0.000000 -0.818527
+-0.088240 0.000000 -0.996099
+0.421631 -0.000000 -0.906767
+0.818527 -0.000000 -0.574468
+0.421631 -0.000000 -0.906767
+-0.088240 0.000000 -0.996099
+-0.574468 0.000000 -0.818527
+-0.906767 0.000000 -0.421631
+-0.996099 0.000000 0.088240
+-0.818527 0.000000 0.574468
+-0.421631 0.000000 0.906767
+0.088240 -0.000000 0.996099
+0.574468 -0.000000 0.818527
+0.906767 -0.000000 0.421631
+0.996099 -0.000000 -0.088240
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_16-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_16-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_16-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_16-Normal0"/>
+        </vertices>
+        <triangles count="24"><input semantic="VERTEX" offset="0" source="#_ncl1_16-VERTEX"/><p> 10 14 9 9 14 15 9 15 8 8 15 16 8 16 7 7 16 17 7 17 6 6 17 18 6 18 5 5 18 19 5 19 4 4 19 20 4 20 3 3 20 21 3 21 2 2 21 22 2 22 1 1 22 23 1 23 0 0 23 12 0 12 11 11 12 13 11 13 10 10 13 14</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_17-lib" name="_ncl1_17Mesh">
+      <mesh>
+        <source id="_ncl1_17-POSITION">
+          <float_array id="_ncl1_17-POSITION-array" count="141">
+-0.021952 0.004500 0.002244
+-0.022130 0.004500 0.001757
+-0.022040 0.004500 0.001248
+-0.021708 0.004500 0.000851
+-0.021222 0.004500 0.000673
+-0.020712 0.004500 0.000762
+-0.020315 0.004500 0.001095
+-0.020137 0.004500 0.001581
+-0.020227 0.004500 0.002091
+-0.020559 0.004500 0.002488
+-0.021045 0.004500 0.002665
+-0.021555 0.004500 0.002576
+-0.031819 0.004500 0.009074
+-0.031996 0.004500 0.008588
+-0.031907 0.004500 0.008078
+-0.031574 0.004500 0.007681
+-0.031088 0.004500 0.007504
+-0.030578 0.004500 0.007593
+-0.030181 0.004500 0.007926
+-0.030004 0.004500 0.008412
+-0.030093 0.004500 0.008922
+-0.030426 0.004500 0.009319
+-0.030912 0.004500 0.009496
+-0.031422 0.004500 0.009407
+-0.004819 0.004500 0.047545
+-0.004996 0.004500 0.047059
+-0.004907 0.004500 0.046549
+-0.004574 0.004500 0.046152
+-0.004088 0.004500 0.045975
+-0.003578 0.004500 0.046064
+-0.003181 0.004500 0.046396
+-0.003004 0.004500 0.046883
+-0.003093 0.004500 0.047392
+-0.003426 0.004500 0.047789
+-0.003912 0.004500 0.047967
+-0.004422 0.004500 0.047878
+-0.037391 0.004500 0.008098
+-0.008667 0.004500 0.049025
+-0.006683 0.004500 0.050686
+-0.004133 0.004500 0.051133
+-0.001702 0.004500 0.050245
+-0.000041 0.004500 0.048260
+0.000406 0.004500 0.045711
+-0.000482 0.004500 0.043280
+-0.024609 0.004500 0.008902
+-0.016424 0.004500 0.003157
+-0.021019 0.004500 -0.003392
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_17-POSITION-array" count="47" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_17-Normal0">
+          <float_array id="_ncl1_17-Normal0-array" count="141">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_17-Normal0-array" count="47" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_17-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_17-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_17-Normal0"/>
+        </vertices>
+        <triangles count="51"><input semantic="VERTEX" offset="0" source="#_ncl1_17-VERTEX"/><p> 6 7 45 5 6 46 46 6 45 2 3 46 46 3 4 46 4 5 14 15 36 36 15 16 23 12 36 36 12 13 36 13 14 45 10 44 44 10 11 7 8 45 45 8 9 45 9 10 22 23 37 37 23 36 27 28 44 44 28 43 17 18 44 44 18 19 28 29 43 43 29 30 43 30 42 11 0 44 44 0 1 44 1 17 17 1 2 17 2 16 16 2 46 16 46 36 42 30 41 41 30 31 41 31 40 40 31 32 40 32 33 26 27 21 21 27 44 21 44 20 20 44 19 24 25 37 37 25 26 37 26 22 22 26 21 33 34 40 40 34 35 40 35 39 39 35 24 39 24 38 38 24 37</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_18-lib" name="_ncl1_18Mesh">
+      <mesh>
+        <source id="_ncl1_18-POSITION">
+          <float_array id="_ncl1_18-POSITION-array" count="12">
+-0.037391 -0.004500 0.008098
+-0.008667 -0.004500 0.049025
+-0.008667 0.004500 0.049025
+-0.037391 0.004500 0.008098
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_18-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_18-Normal0">
+          <float_array id="_ncl1_18-Normal0-array" count="12">
+-0.818527 0.000000 0.574468
+-0.818527 0.000000 0.574468
+-0.818527 0.000000 0.574468
+-0.818527 0.000000 0.574468
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_18-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_18-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_18-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_18-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_18-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_19-lib" name="_ncl1_19Mesh">
+      <mesh>
+        <source id="_ncl1_19-POSITION">
+          <float_array id="_ncl1_19-POSITION-array" count="141">
+-0.021952 -0.004500 0.002244
+-0.021555 -0.004500 0.002576
+-0.021045 -0.004500 0.002665
+-0.020559 -0.004500 0.002488
+-0.020227 -0.004500 0.002091
+-0.020137 -0.004500 0.001581
+-0.020315 -0.004500 0.001095
+-0.020712 -0.004500 0.000762
+-0.021222 -0.004500 0.000673
+-0.021708 -0.004500 0.000851
+-0.022040 -0.004500 0.001248
+-0.022130 -0.004500 0.001757
+-0.031819 -0.004500 0.009074
+-0.031422 -0.004500 0.009407
+-0.030912 -0.004500 0.009496
+-0.030426 -0.004500 0.009319
+-0.030093 -0.004500 0.008922
+-0.030004 -0.004500 0.008412
+-0.030181 -0.004500 0.007926
+-0.030578 -0.004500 0.007593
+-0.031088 -0.004500 0.007504
+-0.031574 -0.004500 0.007681
+-0.031907 -0.004500 0.008078
+-0.031996 -0.004500 0.008588
+-0.024609 -0.004500 0.008902
+-0.000482 -0.004500 0.043280
+0.000406 -0.004500 0.045711
+-0.000041 -0.004500 0.048260
+-0.001702 -0.004500 0.050245
+-0.004133 -0.004500 0.051133
+-0.006683 -0.004500 0.050686
+-0.008667 -0.004500 0.049025
+-0.037391 -0.004500 0.008098
+-0.021019 -0.004500 -0.003392
+-0.016424 -0.004500 0.003157
+-0.004819 -0.004500 0.047545
+-0.004422 -0.004500 0.047878
+-0.003912 -0.004500 0.047967
+-0.003426 -0.004500 0.047789
+-0.003093 -0.004500 0.047392
+-0.003004 -0.004500 0.046883
+-0.003181 -0.004500 0.046396
+-0.003578 -0.004500 0.046064
+-0.004088 -0.004500 0.045975
+-0.004574 -0.004500 0.046152
+-0.004907 -0.004500 0.046549
+-0.004996 -0.004500 0.047059
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_19-POSITION-array" count="47" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_19-Normal0">
+          <float_array id="_ncl1_19-Normal0-array" count="141">
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_19-Normal0-array" count="47" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_19-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_19-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_19-Normal0"/>
+        </vertices>
+        <triangles count="51"><input semantic="VERTEX" offset="0" source="#_ncl1_19-VERTEX"/><p> 3 4 34 29 35 36 15 16 24 4 5 34 34 5 6 34 6 33 3 34 2 2 34 24 2 24 1 44 45 14 14 45 31 14 31 13 13 31 32 6 7 33 33 7 8 33 8 9 20 10 19 19 10 11 19 11 24 24 11 0 24 0 1 41 42 25 25 42 43 25 43 24 24 43 44 24 44 15 15 44 14 22 23 32 32 23 12 32 12 13 9 10 33 33 10 20 33 20 32 32 20 21 32 21 22 38 39 28 28 39 40 28 40 27 27 40 41 27 41 26 26 41 25 29 36 28 28 36 37 28 37 38 45 46 31 31 46 35 31 35 30 30 35 29 16 17 24 24 17 18 24 18 19</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_20-lib" name="_ncl1_20Mesh">
+      <mesh>
+        <source id="_ncl1_20-POSITION">
+          <float_array id="_ncl1_20-POSITION-array" count="42">
+-0.000482 0.004500 0.043280
+0.000406 0.004500 0.045711
+-0.000041 0.004500 0.048260
+-0.001702 0.004500 0.050245
+-0.004133 0.004500 0.051133
+-0.006683 0.004500 0.050686
+-0.008667 0.004500 0.049025
+-0.008667 -0.004500 0.049025
+-0.006683 -0.004500 0.050686
+-0.004133 -0.004500 0.051133
+-0.001702 -0.004500 0.050245
+-0.000041 -0.004500 0.048260
+0.000406 -0.004500 0.045711
+-0.000482 -0.004500 0.043280
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_20-POSITION-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_20-Normal0">
+          <float_array id="_ncl1_20-Normal0-array" count="42">
+0.818527 -0.000000 -0.574468
+0.996099 -0.000000 -0.088240
+0.906767 -0.000000 0.421631
+0.574468 -0.000000 0.818527
+0.088240 -0.000000 0.996099
+-0.421631 0.000000 0.906767
+-0.818527 0.000000 0.574468
+-0.818527 0.000000 0.574468
+-0.421631 0.000000 0.906767
+0.088240 -0.000000 0.996099
+0.574468 -0.000000 0.818527
+0.906767 -0.000000 0.421631
+0.996099 -0.000000 -0.088240
+0.818527 -0.000000 -0.574468
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_20-Normal0-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_20-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_20-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_20-Normal0"/>
+        </vertices>
+        <triangles count="12"><input semantic="VERTEX" offset="0" source="#_ncl1_20-VERTEX"/><p> 6 7 8 6 8 5 5 8 9 5 9 4 4 9 10 4 10 3 3 10 11 3 11 2 2 11 12 2 12 1 1 12 13 1 13 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_21-lib" name="_ncl1_21Mesh">
+      <mesh>
+        <source id="_ncl1_21-POSITION">
+          <float_array id="_ncl1_21-POSITION-array" count="24">
+-0.024609 -0.004500 0.008902
+-0.024609 -0.002750 0.008902
+-0.029205 -0.002750 0.002354
+-0.029205 0.002750 0.002354
+-0.024609 0.002750 0.008902
+-0.024609 0.004500 0.008902
+-0.000482 0.004500 0.043280
+-0.000482 -0.004500 0.043280
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_21-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_21-Normal0">
+          <float_array id="_ncl1_21-Normal0-array" count="24">
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+0.818527 -0.000000 -0.574468
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_21-Normal0-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_21-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_21-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_21-Normal0"/>
+        </vertices>
+        <triangles count="6"><input semantic="VERTEX" offset="0" source="#_ncl1_21-VERTEX"/><p> 2 3 4 7 4 6 6 4 5 2 4 1 1 4 7 1 7 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_22-lib" name="_ncl1_22Mesh">
+      <mesh>
+        <source id="_ncl1_22-POSITION">
+          <float_array id="_ncl1_22-POSITION-array" count="72">
+-0.004819 -0.004500 0.047545
+-0.004996 -0.004500 0.047059
+-0.004907 -0.004500 0.046549
+-0.004574 -0.004500 0.046152
+-0.004088 -0.004500 0.045975
+-0.003578 -0.004500 0.046064
+-0.003181 -0.004500 0.046396
+-0.003004 -0.004500 0.046883
+-0.003093 -0.004500 0.047392
+-0.003426 -0.004500 0.047789
+-0.003912 -0.004500 0.047967
+-0.004422 -0.004500 0.047878
+-0.004819 0.004500 0.047545
+-0.004422 0.004500 0.047878
+-0.003912 0.004500 0.047967
+-0.003426 0.004500 0.047789
+-0.003093 0.004500 0.047392
+-0.003004 0.004500 0.046883
+-0.003181 0.004500 0.046396
+-0.003578 0.004500 0.046064
+-0.004088 0.004500 0.045975
+-0.004574 0.004500 0.046152
+-0.004907 0.004500 0.046549
+-0.004996 0.004500 0.047059
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_22-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_22-Normal0">
+          <float_array id="_ncl1_22-Normal0-array" count="72">
+0.818527 -0.000000 -0.574468
+0.996099 -0.000000 -0.088240
+0.906767 -0.000000 0.421631
+0.574468 -0.000000 0.818527
+0.088240 -0.000000 0.996099
+-0.421631 0.000000 0.906767
+-0.818527 0.000000 0.574468
+-0.996099 0.000000 0.088240
+-0.906767 0.000000 -0.421631
+-0.574468 0.000000 -0.818527
+-0.088240 0.000000 -0.996099
+0.421631 -0.000000 -0.906767
+0.818527 -0.000000 -0.574468
+0.421631 -0.000000 -0.906767
+-0.088240 0.000000 -0.996099
+-0.574468 0.000000 -0.818527
+-0.906767 0.000000 -0.421631
+-0.996099 0.000000 0.088240
+-0.818527 0.000000 0.574468
+-0.421631 0.000000 0.906767
+0.088240 -0.000000 0.996099
+0.574468 -0.000000 0.818527
+0.906767 -0.000000 0.421631
+0.996099 -0.000000 -0.088240
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_22-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_22-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_22-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_22-Normal0"/>
+        </vertices>
+        <triangles count="24"><input semantic="VERTEX" offset="0" source="#_ncl1_22-VERTEX"/><p> 10 14 9 9 14 15 9 15 8 8 15 16 8 16 7 7 16 17 7 17 6 6 17 18 6 18 5 5 18 19 5 19 4 4 19 20 4 20 3 3 20 21 3 21 2 2 21 22 2 22 1 1 22 23 1 23 0 0 23 12 0 12 11 11 12 13 11 13 10 10 13 14</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_23-lib" name="_ncl1_23Mesh">
+      <mesh>
+        <source id="_ncl1_23-POSITION">
+          <float_array id="_ncl1_23-POSITION-array" count="72">
+-0.031819 -0.004500 0.009074
+-0.031996 -0.004500 0.008588
+-0.031907 -0.004500 0.008078
+-0.031574 -0.004500 0.007681
+-0.031088 -0.004500 0.007504
+-0.030578 -0.004500 0.007593
+-0.030181 -0.004500 0.007926
+-0.030004 -0.004500 0.008412
+-0.030093 -0.004500 0.008922
+-0.030426 -0.004500 0.009319
+-0.030912 -0.004500 0.009496
+-0.031422 -0.004500 0.009407
+-0.031819 0.004500 0.009074
+-0.031422 0.004500 0.009407
+-0.030912 0.004500 0.009496
+-0.030426 0.004500 0.009319
+-0.030093 0.004500 0.008922
+-0.030004 0.004500 0.008412
+-0.030181 0.004500 0.007926
+-0.030578 0.004500 0.007593
+-0.031088 0.004500 0.007504
+-0.031574 0.004500 0.007681
+-0.031907 0.004500 0.008078
+-0.031996 0.004500 0.008588
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_23-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_23-Normal0">
+          <float_array id="_ncl1_23-Normal0-array" count="72">
+0.818527 -0.000000 -0.574468
+0.996099 -0.000000 -0.088240
+0.906767 -0.000000 0.421631
+0.574468 -0.000000 0.818527
+0.088240 -0.000000 0.996099
+-0.421631 0.000000 0.906767
+-0.818527 0.000000 0.574468
+-0.996099 0.000000 0.088240
+-0.906767 0.000000 -0.421631
+-0.574468 0.000000 -0.818527
+-0.088240 0.000000 -0.996099
+0.421631 -0.000000 -0.906767
+0.818527 -0.000000 -0.574468
+0.421631 -0.000000 -0.906767
+-0.088240 0.000000 -0.996099
+-0.574468 0.000000 -0.818527
+-0.906767 0.000000 -0.421631
+-0.996099 0.000000 0.088240
+-0.818527 0.000000 0.574468
+-0.421631 0.000000 0.906767
+0.088240 -0.000000 0.996099
+0.574468 -0.000000 0.818527
+0.906767 -0.000000 0.421631
+0.996099 -0.000000 -0.088240
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_23-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_23-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_23-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_23-Normal0"/>
+        </vertices>
+        <triangles count="24"><input semantic="VERTEX" offset="0" source="#_ncl1_23-VERTEX"/><p> 10 14 9 9 14 15 9 15 8 8 15 16 8 16 7 7 16 17 7 17 6 6 17 18 6 18 5 5 18 19 5 19 4 4 19 20 4 20 3 3 20 21 3 21 2 2 21 22 2 22 1 1 22 23 1 23 0 0 23 12 0 12 11 11 12 13 11 13 10 10 13 14</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_24-lib" name="_ncl1_24Mesh">
+      <mesh>
+        <source id="_ncl1_24-POSITION">
+          <float_array id="_ncl1_24-POSITION-array" count="12">
+-0.003000 -0.005000 0.054971
+-0.003000 0.005000 0.054971
+-0.000000 0.005000 0.054971
+-0.000000 -0.005000 0.054971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_24-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_24-Normal0">
+          <float_array id="_ncl1_24-Normal0-array" count="12">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_24-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_24-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_24-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_24-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_24-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_25-lib" name="_ncl1_25Mesh">
+      <mesh>
+        <source id="_ncl1_25-POSITION">
+          <float_array id="_ncl1_25-POSITION-array" count="24">
+-0.000000 -0.005000 0.042971
+-0.000000 -0.005000 0.054971
+-0.000000 0.005000 0.054971
+-0.000000 0.005000 0.042971
+-0.000000 0.007500 0.042971
+-0.000000 0.007500 0.074971
+-0.000000 -0.007500 0.074971
+-0.000000 -0.007500 0.042971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_25-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_25-Normal0">
+          <float_array id="_ncl1_25-Normal0-array" count="24">
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_25-Normal0-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_25-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_25-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_25-Normal0"/>
+        </vertices>
+        <triangles count="6"><input semantic="VERTEX" offset="0" source="#_ncl1_25-VERTEX"/><p> 2 3 4 4 5 2 2 5 6 2 6 1 1 6 7 1 7 0</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_26-lib" name="_ncl1_26Mesh">
+      <mesh>
+        <source id="_ncl1_26-POSITION">
+          <float_array id="_ncl1_26-POSITION-array" count="12">
+-0.000000 0.005000 0.042971
+-0.021000 0.005000 0.042971
+-0.021000 0.007500 0.042971
+-0.000000 0.007500 0.042971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_26-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_26-Normal0">
+          <float_array id="_ncl1_26-Normal0-array" count="12">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_26-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_26-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_26-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_26-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_26-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_27-lib" name="_ncl1_27Mesh">
+      <mesh>
+        <source id="_ncl1_27-POSITION">
+          <float_array id="_ncl1_27-POSITION-array" count="93">
+-0.003000 0.005000 0.054971
+-0.003000 0.005000 0.074971
+-0.007000 0.005000 0.074971
+-0.021000 0.005000 0.050971
+-0.021000 0.005000 0.042971
+-0.000000 0.005000 0.042971
+-0.000000 0.005000 0.054971
+-0.003000 0.005000 0.046971
+-0.003134 0.005000 0.046471
+-0.003500 0.005000 0.046105
+-0.004000 0.005000 0.045971
+-0.004500 0.005000 0.046105
+-0.004866 0.005000 0.046471
+-0.005000 0.005000 0.046971
+-0.004866 0.005000 0.047471
+-0.004500 0.005000 0.047837
+-0.004000 0.005000 0.047971
+-0.003500 0.005000 0.047837
+-0.003134 0.005000 0.047471
+-0.018000 0.005000 0.046971
+-0.017866 0.005000 0.047471
+-0.017500 0.005000 0.047837
+-0.017000 0.005000 0.047971
+-0.016500 0.005000 0.047837
+-0.016134 0.005000 0.047471
+-0.016000 0.005000 0.046971
+-0.016134 0.005000 0.046471
+-0.016500 0.005000 0.046105
+-0.017000 0.005000 0.045971
+-0.017500 0.005000 0.046105
+-0.017866 0.005000 0.046471
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_27-POSITION-array" count="31" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_27-Normal0">
+          <float_array id="_ncl1_27-Normal0-array" count="93">
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_27-Normal0-array" count="31" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_27-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_27-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_27-Normal0"/>
+        </vertices>
+        <triangles count="33"><input semantic="VERTEX" offset="0" source="#_ncl1_27-VERTEX"/><p> 3 21 22 29 4 28 28 4 27 2 3 23 23 3 22 1 2 0 0 2 23 0 23 24 11 5 10 10 5 9 29 30 4 4 30 19 4 19 3 3 19 20 3 20 21 16 17 0 0 17 18 0 18 6 6 18 7 6 7 5 5 7 8 5 8 9 4 5 27 27 5 11 27 11 26 26 11 12 26 12 25 25 12 13 25 13 24 24 13 14 24 14 0 0 14 15 0 15 16</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_28-lib" name="_ncl1_28Mesh">
+      <mesh>
+        <source id="_ncl1_28-POSITION">
+          <float_array id="_ncl1_28-POSITION-array" count="93">
+-0.003000 -0.005000 0.046971
+-0.003134 -0.005000 0.047471
+-0.003500 -0.005000 0.047837
+-0.004000 -0.005000 0.047971
+-0.004500 -0.005000 0.047837
+-0.004866 -0.005000 0.047471
+-0.005000 -0.005000 0.046971
+-0.004866 -0.005000 0.046471
+-0.004500 -0.005000 0.046105
+-0.004000 -0.005000 0.045971
+-0.003500 -0.005000 0.046105
+-0.003134 -0.005000 0.046471
+-0.018000 -0.005000 0.046971
+-0.017866 -0.005000 0.046471
+-0.017500 -0.005000 0.046105
+-0.017000 -0.005000 0.045971
+-0.016500 -0.005000 0.046105
+-0.016134 -0.005000 0.046471
+-0.016000 -0.005000 0.046971
+-0.016134 -0.005000 0.047471
+-0.016500 -0.005000 0.047837
+-0.017000 -0.005000 0.047971
+-0.017500 -0.005000 0.047837
+-0.017866 -0.005000 0.047471
+-0.003000 -0.005000 0.054971
+-0.000000 -0.005000 0.054971
+-0.000000 -0.005000 0.042971
+-0.021000 -0.005000 0.042971
+-0.021000 -0.005000 0.050971
+-0.007000 -0.005000 0.074971
+-0.003000 -0.005000 0.074971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_28-POSITION-array" count="31" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_28-Normal0">
+          <float_array id="_ncl1_28-Normal0-array" count="93">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_28-Normal0-array" count="31" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_28-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_28-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_28-Normal0"/>
+        </vertices>
+        <triangles count="33"><input semantic="VERTEX" offset="0" source="#_ncl1_28-VERTEX"/><p> 28 29 20 22 28 21 21 28 20 3 4 24 24 4 5 22 23 28 28 23 12 28 12 27 27 12 13 13 14 27 27 14 15 27 15 16 26 27 8 8 27 16 8 16 7 7 16 17 7 17 6 6 17 18 6 18 5 5 18 19 5 19 24 10 26 9 9 26 8 19 20 24 24 20 29 24 29 30 10 11 26 26 11 0 26 0 25 25 0 1 25 1 24 24 1 2 24 2 3</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_29-lib" name="_ncl1_29Mesh">
+      <mesh>
+        <source id="_ncl1_29-POSITION">
+          <float_array id="_ncl1_29-POSITION-array" count="12">
+-0.003000 0.005000 0.054971
+-0.003000 -0.005000 0.054971
+-0.003000 -0.005000 0.074971
+-0.003000 0.005000 0.074971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_29-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_29-Normal0">
+          <float_array id="_ncl1_29-Normal0-array" count="12">
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_29-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_29-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_29-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_29-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_29-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_30-lib" name="_ncl1_30Mesh">
+      <mesh>
+        <source id="_ncl1_30-POSITION">
+          <float_array id="_ncl1_30-POSITION-array" count="12">
+-0.021000 -0.005000 0.042971
+-0.000000 -0.005000 0.042971
+-0.000000 -0.007500 0.042971
+-0.021000 -0.007500 0.042971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_30-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_30-Normal0">
+          <float_array id="_ncl1_30-Normal0-array" count="12">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_30-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_30-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_30-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_30-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_30-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_31-lib" name="_ncl1_31Mesh">
+      <mesh>
+        <source id="_ncl1_31-POSITION">
+          <float_array id="_ncl1_31-POSITION-array" count="12">
+-0.021000 0.005000 0.042971
+-0.021000 0.005000 0.050971
+-0.021000 0.007500 0.050971
+-0.021000 0.007500 0.042971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_31-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_31-Normal0">
+          <float_array id="_ncl1_31-Normal0-array" count="12">
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_31-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_31-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_31-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_31-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_31-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_32-lib" name="_ncl1_32Mesh">
+      <mesh>
+        <source id="_ncl1_32-POSITION">
+          <float_array id="_ncl1_32-POSITION-array" count="12">
+-0.021000 0.005000 0.050971
+-0.007000 0.005000 0.074971
+-0.007000 0.007500 0.074971
+-0.021000 0.007500 0.050971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_32-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_32-Normal0">
+          <float_array id="_ncl1_32-Normal0-array" count="12">
+-0.863779 0.000000 0.503871
+-0.863779 0.000000 0.503871
+-0.863779 0.000000 0.503871
+-0.863779 0.000000 0.503871
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_32-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_32-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_32-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_32-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_32-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_33-lib" name="_ncl1_33Mesh">
+      <mesh>
+        <source id="_ncl1_33-POSITION">
+          <float_array id="_ncl1_33-POSITION-array" count="72">
+-0.003000 -0.005000 0.046971
+-0.003134 -0.005000 0.046471
+-0.003500 -0.005000 0.046105
+-0.004000 -0.005000 0.045971
+-0.004500 -0.005000 0.046105
+-0.004866 -0.005000 0.046471
+-0.005000 -0.005000 0.046971
+-0.004866 -0.005000 0.047471
+-0.004500 -0.005000 0.047837
+-0.004000 -0.005000 0.047971
+-0.003500 -0.005000 0.047837
+-0.003134 -0.005000 0.047471
+-0.005000 -0.007500 0.046971
+-0.004866 -0.007500 0.046471
+-0.004500 -0.007500 0.046105
+-0.004000 -0.007500 0.045971
+-0.003500 -0.007500 0.046105
+-0.003134 -0.007500 0.046471
+-0.003000 -0.007500 0.046971
+-0.003134 -0.007500 0.047471
+-0.003500 -0.007500 0.047837
+-0.004000 -0.007500 0.047971
+-0.004500 -0.007500 0.047837
+-0.004866 -0.007500 0.047471
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_33-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_33-Normal0">
+          <float_array id="_ncl1_33-Normal0-array" count="72">
+-1.000000 0.000000 -0.000000
+-0.866025 0.000000 0.500000
+-0.500000 0.000000 0.866025
+0.000000 -0.000000 1.000000
+0.500000 -0.000000 0.866025
+0.866025 -0.000000 0.500000
+1.000000 -0.000000 -0.000000
+0.866025 -0.000000 -0.500000
+0.500000 -0.000000 -0.866025
+0.000000 0.000000 -1.000000
+-0.500000 0.000000 -0.866025
+-0.866025 0.000000 -0.500000
+1.000000 -0.000000 0.000000
+0.866025 -0.000000 0.500000
+0.500000 -0.000000 0.866025
+0.000000 -0.000000 1.000000
+-0.500000 0.000000 0.866025
+-0.866025 0.000000 0.500000
+-1.000000 0.000000 -0.000000
+-0.866025 0.000000 -0.500000
+-0.500000 0.000000 -0.866025
+0.000000 0.000000 -1.000000
+0.500000 -0.000000 -0.866025
+0.866025 -0.000000 -0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_33-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_33-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_33-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_33-Normal0"/>
+        </vertices>
+        <triangles count="24"><input semantic="VERTEX" offset="0" source="#_ncl1_33-VERTEX"/><p> 22 8 21 21 8 9 21 9 20 20 9 10 20 10 19 19 10 11 19 11 18 18 11 0 18 0 17 17 0 1 17 1 16 16 1 2 16 2 15 15 2 3 15 3 14 14 3 4 14 4 13 13 4 5 13 5 12 12 5 6 12 6 23 23 6 7 23 7 22 22 7 8</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_34-lib" name="_ncl1_34Mesh">
+      <mesh>
+        <source id="_ncl1_34-POSITION">
+          <float_array id="_ncl1_34-POSITION-array" count="72">
+-0.018000 -0.007500 0.046971
+-0.017866 -0.007500 0.046471
+-0.017500 -0.007500 0.046105
+-0.017000 -0.007500 0.045971
+-0.016500 -0.007500 0.046105
+-0.016134 -0.007500 0.046471
+-0.016000 -0.007500 0.046971
+-0.016134 -0.007500 0.047471
+-0.016500 -0.007500 0.047837
+-0.017000 -0.007500 0.047971
+-0.017500 -0.007500 0.047837
+-0.017866 -0.007500 0.047471
+-0.018000 -0.005000 0.046971
+-0.017866 -0.005000 0.047471
+-0.017500 -0.005000 0.047837
+-0.017000 -0.005000 0.047971
+-0.016500 -0.005000 0.047837
+-0.016134 -0.005000 0.047471
+-0.016000 -0.005000 0.046971
+-0.016134 -0.005000 0.046471
+-0.016500 -0.005000 0.046105
+-0.017000 -0.005000 0.045971
+-0.017500 -0.005000 0.046105
+-0.017866 -0.005000 0.046471
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_34-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_34-Normal0">
+          <float_array id="_ncl1_34-Normal0-array" count="72">
+1.000000 -0.000000 0.000000
+0.866025 -0.000000 0.500000
+0.500000 -0.000000 0.866025
+0.000000 -0.000000 1.000000
+-0.500000 0.000000 0.866025
+-0.866025 0.000000 0.500000
+-1.000000 0.000000 -0.000000
+-0.866025 0.000000 -0.500000
+-0.500000 0.000000 -0.866025
+0.000000 0.000000 -1.000000
+0.500000 -0.000000 -0.866025
+0.866025 -0.000000 -0.500000
+1.000000 -0.000000 -0.000000
+0.866025 -0.000000 -0.500000
+0.500000 -0.000000 -0.866025
+0.000000 0.000000 -1.000000
+-0.500000 0.000000 -0.866025
+-0.866025 0.000000 -0.500000
+-1.000000 0.000000 -0.000000
+-0.866025 0.000000 0.500000
+-0.500000 0.000000 0.866025
+0.000000 -0.000000 1.000000
+0.500000 -0.000000 0.866025
+0.866025 -0.000000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_34-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_34-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_34-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_34-Normal0"/>
+        </vertices>
+        <triangles count="24"><input semantic="VERTEX" offset="0" source="#_ncl1_34-VERTEX"/><p> 10 14 9 9 14 15 9 15 8 8 15 16 8 16 7 7 16 17 7 17 6 6 17 18 6 18 5 5 18 19 5 19 4 4 19 20 4 20 3 3 20 21 3 21 2 2 21 22 2 22 1 1 22 23 1 23 0 0 23 12 0 12 11 11 12 13 11 13 10 10 13 14</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_35-lib" name="_ncl1_35Mesh">
+      <mesh>
+        <source id="_ncl1_35-POSITION">
+          <float_array id="_ncl1_35-POSITION-array" count="72">
+-0.003000 0.005000 0.046971
+-0.003134 0.005000 0.047471
+-0.003500 0.005000 0.047837
+-0.004000 0.005000 0.047971
+-0.004500 0.005000 0.047837
+-0.004866 0.005000 0.047471
+-0.005000 0.005000 0.046971
+-0.004866 0.005000 0.046471
+-0.004500 0.005000 0.046105
+-0.004000 0.005000 0.045971
+-0.003500 0.005000 0.046105
+-0.003134 0.005000 0.046471
+-0.005000 0.007500 0.046971
+-0.004866 0.007500 0.047471
+-0.004500 0.007500 0.047837
+-0.004000 0.007500 0.047971
+-0.003500 0.007500 0.047837
+-0.003134 0.007500 0.047471
+-0.003000 0.007500 0.046971
+-0.003134 0.007500 0.046471
+-0.003500 0.007500 0.046105
+-0.004000 0.007500 0.045971
+-0.004500 0.007500 0.046105
+-0.004866 0.007500 0.046471
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_35-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_35-Normal0">
+          <float_array id="_ncl1_35-Normal0-array" count="72">
+-1.000000 0.000000 0.000000
+-0.866025 0.000000 -0.500000
+-0.500000 0.000000 -0.866025
+0.000000 0.000000 -1.000000
+0.500000 -0.000000 -0.866025
+0.866025 -0.000000 -0.500000
+1.000000 -0.000000 0.000000
+0.866025 -0.000000 0.500000
+0.500000 -0.000000 0.866025
+0.000000 -0.000000 1.000000
+-0.500000 0.000000 0.866025
+-0.866025 0.000000 0.500000
+1.000000 -0.000000 -0.000000
+0.866025 -0.000000 -0.500000
+0.500000 -0.000000 -0.866025
+-0.000000 0.000000 -1.000000
+-0.500000 0.000000 -0.866025
+-0.866025 0.000000 -0.500000
+-1.000000 0.000000 0.000000
+-0.866025 0.000000 0.500000
+-0.500000 0.000000 0.866025
+-0.000000 -0.000000 1.000000
+0.500000 -0.000000 0.866025
+0.866025 -0.000000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_35-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_35-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_35-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_35-Normal0"/>
+        </vertices>
+        <triangles count="24"><input semantic="VERTEX" offset="0" source="#_ncl1_35-VERTEX"/><p> 22 8 21 21 8 9 21 9 20 20 9 10 20 10 19 19 10 11 19 11 18 18 11 0 18 0 17 17 0 1 17 1 16 16 1 2 16 2 15 15 2 3 15 3 14 14 3 4 14 4 13 13 4 5 13 5 12 12 5 6 12 6 23 23 6 7 23 7 22 22 7 8</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_36-lib" name="_ncl1_36Mesh">
+      <mesh>
+        <source id="_ncl1_36-POSITION">
+          <float_array id="_ncl1_36-POSITION-array" count="72">
+-0.018000 0.005000 0.046971
+-0.017866 0.005000 0.046471
+-0.017500 0.005000 0.046105
+-0.017000 0.005000 0.045971
+-0.016500 0.005000 0.046105
+-0.016134 0.005000 0.046471
+-0.016000 0.005000 0.046971
+-0.016134 0.005000 0.047471
+-0.016500 0.005000 0.047837
+-0.017000 0.005000 0.047971
+-0.017500 0.005000 0.047837
+-0.017866 0.005000 0.047471
+-0.018000 0.007500 0.046971
+-0.017866 0.007500 0.047471
+-0.017500 0.007500 0.047837
+-0.017000 0.007500 0.047971
+-0.016500 0.007500 0.047837
+-0.016134 0.007500 0.047471
+-0.016000 0.007500 0.046971
+-0.016134 0.007500 0.046471
+-0.016500 0.007500 0.046105
+-0.017000 0.007500 0.045971
+-0.017500 0.007500 0.046105
+-0.017866 0.007500 0.046471
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_36-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_36-Normal0">
+          <float_array id="_ncl1_36-Normal0-array" count="72">
+1.000000 -0.000000 0.000000
+0.866025 -0.000000 0.500000
+0.500000 -0.000000 0.866025
+0.000000 -0.000000 1.000000
+-0.500000 0.000000 0.866025
+-0.866025 0.000000 0.500000
+-1.000000 0.000000 0.000000
+-0.866025 0.000000 -0.500000
+-0.500000 0.000000 -0.866025
+0.000000 0.000000 -1.000000
+0.500000 -0.000000 -0.866025
+0.866025 -0.000000 -0.500000
+1.000000 -0.000000 -0.000000
+0.866025 -0.000000 -0.500000
+0.500000 -0.000000 -0.866025
+0.000000 0.000000 -1.000000
+-0.500000 0.000000 -0.866025
+-0.866025 0.000000 -0.500000
+-1.000000 0.000000 0.000000
+-0.866025 0.000000 0.500000
+-0.500000 0.000000 0.866025
+0.000000 -0.000000 1.000000
+0.500000 -0.000000 0.866025
+0.866025 -0.000000 0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_36-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_36-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_36-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_36-Normal0"/>
+        </vertices>
+        <triangles count="24"><input semantic="VERTEX" offset="0" source="#_ncl1_36-VERTEX"/><p> 10 14 9 9 14 15 9 15 8 8 15 16 8 16 7 7 16 17 7 17 6 6 17 18 6 18 5 5 18 19 5 19 4 4 19 20 4 20 3 3 20 21 3 21 2 2 21 22 2 22 1 1 22 23 1 23 0 0 23 12 0 12 11 11 12 13 11 13 10 10 13 14</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_37-lib" name="_ncl1_37Mesh">
+      <mesh>
+        <source id="_ncl1_37-POSITION">
+          <float_array id="_ncl1_37-POSITION-array" count="87">
+-0.005000 -0.007500 0.046971
+-0.004866 -0.007500 0.047471
+-0.004500 -0.007500 0.047837
+-0.004000 -0.007500 0.047971
+-0.003500 -0.007500 0.047837
+-0.003134 -0.007500 0.047471
+-0.003000 -0.007500 0.046971
+-0.003134 -0.007500 0.046471
+-0.003500 -0.007500 0.046105
+-0.004000 -0.007500 0.045971
+-0.004500 -0.007500 0.046105
+-0.004866 -0.007500 0.046471
+-0.018000 -0.007500 0.046971
+-0.017866 -0.007500 0.047471
+-0.017500 -0.007500 0.047837
+-0.017000 -0.007500 0.047971
+-0.016500 -0.007500 0.047837
+-0.016134 -0.007500 0.047471
+-0.016000 -0.007500 0.046971
+-0.016134 -0.007500 0.046471
+-0.016500 -0.007500 0.046105
+-0.017000 -0.007500 0.045971
+-0.017500 -0.007500 0.046105
+-0.017866 -0.007500 0.046471
+-0.000000 -0.007500 0.042971
+-0.000000 -0.007500 0.074971
+-0.007000 -0.007500 0.074971
+-0.021000 -0.007500 0.050971
+-0.021000 -0.007500 0.042971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_37-POSITION-array" count="29" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_37-Normal0">
+          <float_array id="_ncl1_37-Normal0-array" count="87">
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_37-Normal0-array" count="29" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_37-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_37-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_37-Normal0"/>
+        </vertices>
+        <triangles count="31"><input semantic="VERTEX" offset="0" source="#_ncl1_37-VERTEX"/><p> 4 5 25 20 21 28 28 21 22 28 22 23 15 16 27 27 16 26 25 5 24 24 5 6 24 6 7 4 25 3 3 25 26 3 26 2 2 26 16 2 16 1 1 16 17 1 17 0 27 28 12 12 28 23 12 13 27 27 13 14 27 14 15 7 8 24 24 8 9 24 9 10 17 18 0 0 18 19 0 19 11 11 19 20 11 20 10 10 20 28 10 28 24</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_38-lib" name="_ncl1_38Mesh">
+      <mesh>
+        <source id="_ncl1_38-POSITION">
+          <float_array id="_ncl1_38-POSITION-array" count="24">
+-0.003000 -0.005000 0.074971
+-0.007000 -0.005000 0.074971
+-0.007000 -0.007500 0.074971
+-0.000000 -0.007500 0.074971
+-0.000000 0.007500 0.074971
+-0.007000 0.007500 0.074971
+-0.007000 0.005000 0.074971
+-0.003000 0.005000 0.074971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_38-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_38-Normal0">
+          <float_array id="_ncl1_38-Normal0-array" count="24">
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_38-Normal0-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_38-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_38-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_38-Normal0"/>
+        </vertices>
+        <triangles count="6"><input semantic="VERTEX" offset="0" source="#_ncl1_38-VERTEX"/><p> 6 7 5 1 2 0 0 2 3 0 3 7 7 3 4 7 4 5</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_39-lib" name="_ncl1_39Mesh">
+      <mesh>
+        <source id="_ncl1_39-POSITION">
+          <float_array id="_ncl1_39-POSITION-array" count="12">
+-0.007000 -0.005000 0.074971
+-0.021000 -0.005000 0.050971
+-0.021000 -0.007500 0.050971
+-0.007000 -0.007500 0.074971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_39-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_39-Normal0">
+          <float_array id="_ncl1_39-Normal0-array" count="12">
+-0.863779 0.000000 0.503871
+-0.863779 0.000000 0.503871
+-0.863779 0.000000 0.503871
+-0.863779 0.000000 0.503871
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_39-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_39-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_39-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_39-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_39-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_40-lib" name="_ncl1_40Mesh">
+      <mesh>
+        <source id="_ncl1_40-POSITION">
+          <float_array id="_ncl1_40-POSITION-array" count="12">
+-0.021000 -0.005000 0.050971
+-0.021000 -0.005000 0.042971
+-0.021000 -0.007500 0.042971
+-0.021000 -0.007500 0.050971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_40-POSITION-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_40-Normal0">
+          <float_array id="_ncl1_40-Normal0-array" count="12">
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_40-Normal0-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_40-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_40-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_40-Normal0"/>
+        </vertices>
+        <triangles count="2"><input semantic="VERTEX" offset="0" source="#_ncl1_40-VERTEX"/><p> 0 1 3 3 1 2</p></triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_ncl1_41-lib" name="_ncl1_41Mesh">
+      <mesh>
+        <source id="_ncl1_41-POSITION">
+          <float_array id="_ncl1_41-POSITION-array" count="87">
+-0.005000 0.007500 0.046971
+-0.004866 0.007500 0.046471
+-0.004500 0.007500 0.046105
+-0.004000 0.007500 0.045971
+-0.003500 0.007500 0.046105
+-0.003134 0.007500 0.046471
+-0.003000 0.007500 0.046971
+-0.003134 0.007500 0.047471
+-0.003500 0.007500 0.047837
+-0.004000 0.007500 0.047971
+-0.004500 0.007500 0.047837
+-0.004866 0.007500 0.047471
+-0.018000 0.007500 0.046971
+-0.017866 0.007500 0.046471
+-0.017500 0.007500 0.046105
+-0.017000 0.007500 0.045971
+-0.016500 0.007500 0.046105
+-0.016134 0.007500 0.046471
+-0.016000 0.007500 0.046971
+-0.016134 0.007500 0.047471
+-0.016500 0.007500 0.047837
+-0.017000 0.007500 0.047971
+-0.017500 0.007500 0.047837
+-0.017866 0.007500 0.047471
+-0.000000 0.007500 0.074971
+-0.000000 0.007500 0.042971
+-0.021000 0.007500 0.042971
+-0.021000 0.007500 0.050971
+-0.007000 0.007500 0.074971
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_41-POSITION-array" count="29" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_ncl1_41-Normal0">
+          <float_array id="_ncl1_41-Normal0-array" count="87">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_ncl1_41-Normal0-array" count="29" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_ncl1_41-VERTEX">
+          <input semantic="POSITION" source="#_ncl1_41-POSITION"/>
+          <input semantic="NORMAL" source="#_ncl1_41-Normal0"/>
+        </vertices>
+        <triangles count="31"><input semantic="VERTEX" offset="0" source="#_ncl1_41-VERTEX"/><p> 27 28 20 2 25 26 20 21 27 27 21 22 27 22 23 0 1 17 17 1 16 1 2 16 16 2 26 16 26 15 5 6 25 25 6 7 25 7 24 2 3 25 25 3 4 25 4 5 26 27 12 12 27 23 12 13 26 26 13 14 26 14 15 17 18 0 0 18 19 0 19 11 11 19 20 11 20 10 10 20 28 10 28 9 9 28 24 9 24 8 8 24 7</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="Undefined" name="Undefined">
+      <technique_common>
+        <directional>
+          <color sid="color">0.575699 0.575699 0.575699</color>
+        </directional>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+    <light id="Undefined_ncl1_1" name="Undefined_ncl1_1">
+      <technique_common>
+        <directional>
+          <color sid="color">0.347488 0.347488 0.347488</color>
+        </directional>
+      </technique_common>
+      <technique profile="MAYA">
+        <intensity sid="intensity">1.000000</intensity>
+      </technique>
+    </light>
+  </library_lights>
+  <library_cameras>
+    <camera id="Camera0" name="Camera0">
+      <optics>
+        <technique_common>
+          <orthographic>
+            <xmag sid="xmag">1.000000</xmag>
+            <aspect_ratio>1.333333</aspect_ratio>
+            <znear sid="znear">0.001000</znear>
+            <zfar sid="zfar">0.500632</zfar>
+          </orthographic>
+        </technique_common>
+        <technique profile="FCOLLADA"><vertical_aperture>1.554470</vertical_aperture><horizontal_aperture>2.072630</horizontal_aperture><lens_squeeze>1.000000</lens_squeeze></technique>
+      </optics>
+    </camera>
+  </library_cameras>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="" id="" sid=""><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_1" id="_ncl1_1" sid="_ncl1_1"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_1-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_2" id="_ncl1_2" sid="_ncl1_2"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_2-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_3" id="_ncl1_3" sid="_ncl1_3"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_3-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_4" id="_ncl1_4" sid="_ncl1_4"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_4-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_5" id="_ncl1_5" sid="_ncl1_5"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_5-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_6" id="_ncl1_6" sid="_ncl1_6"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_6-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_7" id="_ncl1_7" sid="_ncl1_7"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_7-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_8" id="_ncl1_8" sid="_ncl1_8"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_8-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_9" id="_ncl1_9" sid="_ncl1_9"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_9-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_10" id="_ncl1_10" sid="_ncl1_10"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_10-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_11" id="_ncl1_11" sid="_ncl1_11"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_11-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_12" id="_ncl1_12" sid="_ncl1_12"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_12-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_13" id="_ncl1_13" sid="_ncl1_13"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_13-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_14" id="_ncl1_14" sid="_ncl1_14"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_14-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_15" id="_ncl1_15" sid="_ncl1_15"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_15-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_16" id="_ncl1_16" sid="_ncl1_16"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_16-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_17" id="_ncl1_17" sid="_ncl1_17"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_17-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_18" id="_ncl1_18" sid="_ncl1_18"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_18-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_19" id="_ncl1_19" sid="_ncl1_19"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_19-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_20" id="_ncl1_20" sid="_ncl1_20"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_20-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_21" id="_ncl1_21" sid="_ncl1_21"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_21-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_22" id="_ncl1_22" sid="_ncl1_22"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_22-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_23" id="_ncl1_23" sid="_ncl1_23"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_23-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_24" id="_ncl1_24" sid="_ncl1_24"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_24-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_25" id="_ncl1_25" sid="_ncl1_25"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_25-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_26" id="_ncl1_26" sid="_ncl1_26"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_26-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_27" id="_ncl1_27" sid="_ncl1_27"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_27-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_28" id="_ncl1_28" sid="_ncl1_28"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_28-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_29" id="_ncl1_29" sid="_ncl1_29"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_29-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_30" id="_ncl1_30" sid="_ncl1_30"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_30-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_31" id="_ncl1_31" sid="_ncl1_31"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_31-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_32" id="_ncl1_32" sid="_ncl1_32"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_32-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_33" id="_ncl1_33" sid="_ncl1_33"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_33-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_34" id="_ncl1_34" sid="_ncl1_34"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_34-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_35" id="_ncl1_35" sid="_ncl1_35"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_35-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_36" id="_ncl1_36" sid="_ncl1_36"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_36-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_37" id="_ncl1_37" sid="_ncl1_37"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_37-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_38" id="_ncl1_38" sid="_ncl1_38"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_38-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_39" id="_ncl1_39" sid="_ncl1_39"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_39-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_40" id="_ncl1_40" sid="_ncl1_40"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_40-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="_ncl1_41" id="_ncl1_41" sid="_ncl1_41"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#_ncl1_41-lib"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Undefined" id="Undefined" sid="Undefined"><matrix sid="matrix">1.000000 0.000000 0.000000 -0.573462 0.000000 1.000000 0.000000 0.491539 0.000000 0.000000 1.000000 0.655386 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#Undefined"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Undefined_ncl1_1" id="Undefined_ncl1_1" sid="Undefined_ncl1_1"><matrix sid="matrix">1.000000 0.000000 0.000000 0.870388 0.000000 1.000000 0.000000 -0.348155 0.000000 0.000000 1.000000 0.348155 0.000000 0.000000 0.000000 1.000000</matrix><instance_light url="#Undefined_ncl1_1"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="Camera0" id="Camera0" sid="Camera0"><matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_camera url="#Camera0"/><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>1.000000</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>

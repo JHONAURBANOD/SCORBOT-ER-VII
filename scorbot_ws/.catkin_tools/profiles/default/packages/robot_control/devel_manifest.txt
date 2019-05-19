@@ -1,0 +1,4 @@
+robot/robot_control
+/home/salaceri/robotica_ws/devel/.private/robot_control/lib/pkgconfig/robot_control.pc /home/salaceri/robotica_ws/devel/lib/pkgconfig/robot_control.pc
+/home/salaceri/robotica_ws/devel/.private/robot_control/share/robot_control/cmake/robot_controlConfig.cmake /home/salaceri/robotica_ws/devel/share/robot_control/cmake/robot_controlConfig.cmake
+/home/salaceri/robotica_ws/devel/.private/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake /home/salaceri/robotica_ws/devel/share/robot_control/cmake/robot_controlConfig-version.cmake

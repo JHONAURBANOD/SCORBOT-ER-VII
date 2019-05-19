@@ -1,0 +1,330 @@
+<robot name="robot_urdf">
+
+  <!-- Used for fixing robot to Gazebo 'base_link' -->
+  <link name="world"/>
+
+  <joint name="fixed" type="fixed">
+
+    <parent link="world"/>
+    <child link="base_link"/>
+
+  </joint>
+<link name="base_link">
+
+<inertial>
+      <origin
+        xyz="0.13275 0.14932 0.15353"
+        rpy="0 0 0" />
+      <mass
+        value="13.939" />
+      <inertia
+        ixx="0.10125"
+        ixy="-0.00021844"
+        ixz="-0.00033793"
+        iyy="0.087972"
+        iyz="0.0034335"
+        izz="0.095961" />
+    </inertial>
+<visual>
+  <geometry>
+    <mesh filename="package://robot_description/meshes/collision/Base.DAE"/>
+  </geometry>
+</visual>
+ <collision>
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+     <geometry>
+       <mesh filename="package://robot_description/meshes/collision/Base.DAE"/>
+     </geometry>
+   </collision>
+
+</link>
+
+<link name="link_1">
+
+<inertial>
+      <origin
+        xyz="0.013 0 0.054"
+        rpy="0 0 0" />
+      <mass
+        value="5.323" />
+      <inertia
+        ixx="0.028"
+        ixy="-0.002"
+        ixz="-0.003"
+        iyy="0.028"
+        iyz="-0.001"
+        izz="0.034" />
+    </inertial>
+<visual>
+  <geometry>
+    <mesh filename="package://robot_description/meshes/collision/Parte_1.DAE"/>
+  </geometry>
+</visual> 
+<collision>
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+     <geometry>
+       <mesh filename="package://robot_description/meshes/collision/Parte_1.DAE"/>
+     </geometry>
+   </collision>
+
+</link>
+
+<joint name="joint_1" type="revolute">
+
+<parent link="base_link"/>
+<child link="link_1"/>
+<origin xyz="0 0 0.2274" rpy="0 0 0"/>
+<axis xyz="0 0 1"/>
+<limit lower="-2.443" upper="2.985" effort="0" velocity="0.52"/>
+
+</joint>
+
+<link name="link_2">
+
+<inertial>
+      <origin
+        xyz="0.13275 0.14932 0.15353"
+        rpy="0 0 0" />
+      <mass
+        value="13.939" />
+      <inertia
+        ixx="0.10125"
+        ixy="-0.00021844"
+        ixz="-0.00033793"
+        iyy="0.087972"
+        iyz="0.0034335"
+        izz="0.095961" />
+    </inertial>
+<visual>
+  <geometry>
+    <mesh filename="package://robot_description/meshes/collision/Parte_2.DAE"/>
+  </geometry>
+</visual> 
+<collision>
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+     <geometry>
+       <mesh filename="package://robot_description/meshes/collision/Parte_2.DAE"/>
+     </geometry>
+   </collision>
+
+</link>
+
+<joint name="joint_2" type="revolute">
+
+<parent link="link_1"/>
+<child link="link_2"/>
+<origin xyz="0.0255 0 0.13" rpy="-1.570796327 -1.570796327 0"/>
+<axis xyz="0 0 1"/>
+<limit lower="-0.6109" upper="2.27" effort="0" velocity="0.52"/>
+
+</joint>
+
+<link name="link_3">
+
+<inertial>
+      <origin
+        xyz="0.13275 0.14932 0.15353"
+        rpy="0 0 0" />
+      <mass
+        value="13.939" />
+      <inertia
+        ixx="0.10125"
+        ixy="-0.00021844"
+        ixz="-0.00033793"
+        iyy="0.087972"
+        iyz="0.0034335"
+        izz="0.095961" />
+    </inertial>
+<visual>
+  <geometry>
+    <mesh filename="package://robot_description/meshes/collision/Parte_3.DAE"/>
+  </geometry>
+</visual> 
+<collision>
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+     <geometry>
+      <mesh filename="package://robot_description/meshes/collision/Parte_3.DAE"/>
+     </geometry>
+   </collision>
+
+</link>
+
+<joint name="joint_3" type="revolute">
+
+<parent link="link_2"/>
+<child link="link_3"/>
+<origin xyz="0.2225 0 0" rpy="0 0 0"/>
+<axis xyz="0 0 1"/>
+<limit lower="-2.27" upper="2.27" effort="0" velocity="0.52"/>
+
+</joint>
+
+
+<link name="link_4">
+
+<inertial>
+      <origin
+        xyz="0.13275 0.14932 0.15353"
+        rpy="0 0 0" />
+      <mass
+        value="13.939" />
+      <inertia
+        ixx="0.10125"
+        ixy="-0.00021844"
+        ixz="-0.00033793"
+        iyy="0.087972"
+        iyz="0.0034335"
+        izz="0.095961" />
+    </inertial>
+<visual>
+<origin rpy="0 0 0" xyz="0.012 0 0"/>
+  <geometry>
+    <mesh filename="package://robot_description/meshes/collision/Parte_4.DAE"/>
+  </geometry>
+</visual> 
+<collision>
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+     <geometry>
+      <mesh filename="package://robot_description/meshes/collision/Parte_4.DAE"/>
+     </geometry>
+   </collision>
+
+</link>
+
+<joint name="joint_4" type="revolute">
+
+<parent link="link_3"/>
+<child link="link_4"/>
+<origin xyz="0.2225 0 0" rpy="0 0 0"/>
+<axis xyz="0 0 1"/>
+<limit lower="-2.27" upper="2.27" effort="0" velocity="0.52"/>
+
+</joint>
+
+
+<link name="link_5">
+
+<inertial>
+      <origin
+        xyz="0.13275 0.14932 0.15353"
+        rpy="0 0 0" />
+      <mass
+        value="13.939" />
+      <inertia
+        ixx="0.10125"
+        ixy="-0.00021844"
+        ixz="-0.00033793"
+        iyy="0.087972"
+        iyz="0.0034335"
+        izz="0.095961" />
+    </inertial>
+<visual>
+  <geometry>
+    <mesh filename="package://robot_description/meshes/collision/Parte_5.DAE"/>
+  </geometry>
+</visual> 
+<collision>
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+     <geometry>
+      <mesh filename="package://robot_description/meshes/collision/Parte_5.DAE"/>
+     </geometry>
+   </collision>
+
+</link>
+
+<joint name="joint_5" type="revolute">
+
+<parent link="link_4"/>
+<child link="link_5"/>
+<origin xyz="0.08 0 0" rpy="0 1.570796327 0"/>
+<axis xyz="0 0 1"/>
+<limit lower="-3.1416" upper="3.1416" effort="0" velocity="0.52"/>
+
+</joint>
+
+<link name="gripper_left">
+
+<inertial>
+      <origin0
+        xyz="0.13275 0.14932 0.15353"
+        rpy="0 0 0" />
+      <mass
+        value="13.939" />
+      <inertia
+        ixx="0.10125"
+        ixy="-0.00021844"
+        ixz="-0.00033793"
+        iyy="0.087972"
+        iyz="0.0034335"
+        izz="0.095961" />
+    </inertial>
+<visual>
+  <origin xyz="-0.0367 0 0" rpy="0 0 0"/>
+  <geometry>
+    <mesh filename="package://robot_description/meshes/collision/Gripper.DAE"/>
+  </geometry>
+</visual> 
+<collision>
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+     <geometry>
+      <mesh filename="package://robot_description/meshes/collision/Gripper.DAE"/>
+     </geometry>
+   </collision>
+
+</link>
+
+<joint name="gripper" type="revolute">
+
+<parent link="link_5"/>
+<child link="gripper_left"/>
+<origin xyz="0.0367 0 0" rpy="0 0 0"/>
+<axis xyz="0 1 0"/>
+<limit lower="0" upper="0.625" effort="0" velocity="0.52"/>
+
+</joint>
+
+
+<link name="gripper_right">
+
+<inertial>
+      <origin
+        xyz="0.13275 0.14932 0.15353"
+        rpy="0 0 0" />
+      <mass
+        value="13.939" />
+      <inertia
+        ixx="0.10125"
+        ixy="-0.00021844"
+        ixz="-0.00033793"
+        iyy="0.087972"
+        iyz="0.0034335"
+        izz="0.095961" />
+    </inertial>
+<visual>
+  <origin xyz="-0.0367 0 0" rpy="0 0 0"/>
+  <geometry>
+    <mesh filename="package://robot_description/meshes/collision/Gripper.DAE"/>
+  </geometry>
+</visual> 
+<collision>
+     <origin xyz="0 0 0" rpy="0 0 0"/>
+     <geometry>
+      <mesh filename="package://robot_description/meshes/collision/Gripper.DAE"/>
+     </geometry>
+   </collision>
+
+</link>
+
+<joint name="gripper_mimic" type="revolute">
+
+<mimic joint="gripper" />
+<parent link="link_5"/>
+<child link="gripper_right"/>
+<origin xyz="-0.0367 0 0" rpy="0 0 3.141592654"/>
+<axis xyz="0 1 0"/>
+<limit lower="0" upper="0.625" effort="0" velocity="0.52"/>
+
+</joint>
+
+
+  </robot>

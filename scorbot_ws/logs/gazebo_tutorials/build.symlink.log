@@ -1,0 +1,4 @@
+Symlinking /home/salaceri/robotica_ws/devel/lib/libgazebo_tutorials.so
+Symlinking /home/salaceri/robotica_ws/devel/lib/pkgconfig/gazebo_tutorials.pc
+Symlinking /home/salaceri/robotica_ws/devel/share/gazebo_tutorials/cmake/gazebo_tutorialsConfig.cmake
+Symlinking /home/salaceri/robotica_ws/devel/share/gazebo_tutorials/cmake/gazebo_tutorialsConfig-version.cmake

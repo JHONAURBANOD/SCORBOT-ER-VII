@@ -1,0 +1,4 @@
+gazebo_ros_demos/rrbot_control
+/home/salaceri/robotica_ws/devel/.private/rrbot_control/lib/pkgconfig/rrbot_control.pc /home/salaceri/robotica_ws/devel/lib/pkgconfig/rrbot_control.pc
+/home/salaceri/robotica_ws/devel/.private/rrbot_control/share/rrbot_control/cmake/rrbot_controlConfig-version.cmake /home/salaceri/robotica_ws/devel/share/rrbot_control/cmake/rrbot_controlConfig-version.cmake
+/home/salaceri/robotica_ws/devel/.private/rrbot_control/share/rrbot_control/cmake/rrbot_controlConfig.cmake /home/salaceri/robotica_ws/devel/share/rrbot_control/cmake/rrbot_controlConfig.cmake

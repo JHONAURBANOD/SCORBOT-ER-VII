@@ -1,0 +1,8 @@
+prefix=/home/salaceri/robotica_ws/devel/.private/robot_pkg
+
+Name: robot_pkg
+Description: Description of robot_pkg
+Version: 0.0.0
+Cflags: -I/home/salaceri/robotica_ws/devel/.private/robot_pkg/include
+Libs: -L/home/salaceri/robotica_ws/devel/.private/robot_pkg/lib 
+Requires: roscpp std_msgs visualization_msgs

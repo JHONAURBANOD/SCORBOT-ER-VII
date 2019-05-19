@@ -1,0 +1,5 @@
+gazebo_ros_demos/custom_plugin_tutorial
+/home/salaceri/robotica_ws/devel/.private/gazebo_tutorials/lib/libgazebo_tutorials.so /home/salaceri/robotica_ws/devel/lib/libgazebo_tutorials.so
+/home/salaceri/robotica_ws/devel/.private/gazebo_tutorials/lib/pkgconfig/gazebo_tutorials.pc /home/salaceri/robotica_ws/devel/lib/pkgconfig/gazebo_tutorials.pc
+/home/salaceri/robotica_ws/devel/.private/gazebo_tutorials/share/gazebo_tutorials/cmake/gazebo_tutorialsConfig.cmake /home/salaceri/robotica_ws/devel/share/gazebo_tutorials/cmake/gazebo_tutorialsConfig.cmake
+/home/salaceri/robotica_ws/devel/.private/gazebo_tutorials/share/gazebo_tutorials/cmake/gazebo_tutorialsConfig-version.cmake /home/salaceri/robotica_ws/devel/share/gazebo_tutorials/cmake/gazebo_tutorialsConfig-version.cmake

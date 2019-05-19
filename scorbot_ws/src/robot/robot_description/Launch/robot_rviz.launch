@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<launch>
+ 
+
+<!-- send fake joint values -->
+
+
+  
+  <!--node pkg="robot_pkg" type="i2crobot_publisher.py" name="robot_joint_state_publisher" output="screen">
+    <param name="rate" value="50"/>
+  </node-->
+  <!--node pkg="cv_camera" type="cv_camera_node" name="robot_camera" output="screen"/-->
+  <!--node pkg="robot_pkg" type="GUI_robotpi.py" name="GUI_robot" output="screen"/!-->
+<param name="robot_description" command="$(find robot_description)/urdf/robot.xacro"/>
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="TRUE"/>
+  </node>
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" >
+
+</node>
+
+  <node name="rviz" pkg="rviz" type="rviz" required="true" />
+</launch>

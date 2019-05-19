@@ -1,0 +1,8 @@
+prefix=/home/salaceri/robotica_ws/install
+
+Name: robot_description
+Description: Description of robot_description
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/salaceri/robotica_ws/install/lib 
+Requires: 

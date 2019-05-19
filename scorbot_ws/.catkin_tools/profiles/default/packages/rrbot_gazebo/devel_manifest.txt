@@ -1,0 +1,4 @@
+gazebo_ros_demos/rrbot_gazebo
+/home/salaceri/robotica_ws/devel/.private/rrbot_gazebo/lib/pkgconfig/rrbot_gazebo.pc /home/salaceri/robotica_ws/devel/lib/pkgconfig/rrbot_gazebo.pc
+/home/salaceri/robotica_ws/devel/.private/rrbot_gazebo/share/rrbot_gazebo/cmake/rrbot_gazeboConfig-version.cmake /home/salaceri/robotica_ws/devel/share/rrbot_gazebo/cmake/rrbot_gazeboConfig-version.cmake
+/home/salaceri/robotica_ws/devel/.private/rrbot_gazebo/share/rrbot_gazebo/cmake/rrbot_gazeboConfig.cmake /home/salaceri/robotica_ws/devel/share/rrbot_gazebo/cmake/rrbot_gazeboConfig.cmake

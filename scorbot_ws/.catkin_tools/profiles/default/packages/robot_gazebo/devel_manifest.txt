@@ -1,0 +1,4 @@
+robot/robot_gazebo
+/home/salaceri/robotica_ws/devel/.private/robot_gazebo/lib/pkgconfig/robot_gazebo.pc /home/salaceri/robotica_ws/devel/lib/pkgconfig/robot_gazebo.pc
+/home/salaceri/robotica_ws/devel/.private/robot_gazebo/share/robot_gazebo/cmake/robot_gazeboConfig.cmake /home/salaceri/robotica_ws/devel/share/robot_gazebo/cmake/robot_gazeboConfig.cmake
+/home/salaceri/robotica_ws/devel/.private/robot_gazebo/share/robot_gazebo/cmake/robot_gazeboConfig-version.cmake /home/salaceri/robotica_ws/devel/share/robot_gazebo/cmake/robot_gazeboConfig-version.cmake

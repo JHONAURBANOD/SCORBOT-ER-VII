@@ -1,0 +1,24 @@
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _robot_pkg_generate_messages_check_deps_robotJointAction
+[  0%] Built target _robot_pkg_generate_messages_check_deps_ARMarker
+[  0%] Built target _robot_pkg_generate_messages_check_deps_robotPosition
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[ 17%] Built target robot_pkg_generate_messages_nodejs
+[ 35%] Built target robot_pkg_generate_messages_cpp
+[ 58%] Built target robot_pkg_generate_messages_py
+[ 58%] Built target std_msgs_generate_messages_eus
+[ 76%] Built target robot_pkg_generate_messages_lisp
+[100%] Built target robot_pkg_generate_messages_eus
+[100%] Built target robot_pkg_generate_messages

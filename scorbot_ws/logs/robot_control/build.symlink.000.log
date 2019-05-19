@@ -1,0 +1,3 @@
+Symlinking /home/salaceri/robotica_ws/devel/lib/pkgconfig/robot_control.pc
+Symlinking /home/salaceri/robotica_ws/devel/share/robot_control/cmake/robot_controlConfig.cmake
+Symlinking /home/salaceri/robotica_ws/devel/share/robot_control/cmake/robot_controlConfig-version.cmake

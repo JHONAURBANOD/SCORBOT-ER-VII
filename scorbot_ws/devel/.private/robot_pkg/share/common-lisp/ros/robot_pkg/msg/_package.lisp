@@ -1,0 +1,17 @@
+(cl:defpackage robot_pkg-msg
+  (:use )
+  (:export
+   "<ARMARKER>"
+   "ARMARKER"
+   "<ARMARKER>"
+   "ARMARKER"
+   "<ROBOTJOINTACTION>"
+   "ROBOTJOINTACTION"
+   "<ROBOTJOINTACTION>"
+   "ROBOTJOINTACTION"
+   "<ROBOTPOSITION>"
+   "ROBOTPOSITION"
+   "<ROBOTPOSITION>"
+   "ROBOTPOSITION"
+  ))
+

@@ -1,0 +1,8 @@
+prefix=/home/salaceri/robotica_ws/devel/.private/robot_gazebo
+
+Name: robot_gazebo
+Description: Description of robot_gazebo
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/salaceri/robotica_ws/devel/.private/robot_gazebo/lib 
+Requires: 

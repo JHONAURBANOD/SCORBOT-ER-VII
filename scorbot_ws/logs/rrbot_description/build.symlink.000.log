@@ -1,0 +1,3 @@
+Symlinking /home/salaceri/robotica_ws/devel/lib/pkgconfig/rrbot_description.pc
+Symlinking /home/salaceri/robotica_ws/devel/share/rrbot_description/cmake/rrbot_descriptionConfig-version.cmake
+Symlinking /home/salaceri/robotica_ws/devel/share/rrbot_description/cmake/rrbot_descriptionConfig.cmake
